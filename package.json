@@ -126,7 +126,7 @@
     "zone.js": "0.8.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "3.2.2",
+    "@ionic/app-scripts": "^3.2.4",
     "electron-builder-lib": "20.23.1",
     "electron-rebuild": "1.8.1",
     "gulp": "4.0.2",
