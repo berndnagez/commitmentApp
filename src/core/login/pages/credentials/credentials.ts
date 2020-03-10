@@ -113,6 +113,8 @@ export class CoreLoginCredentialsPage {
         this.pageLoaded = false;
 
         // If the site is configured with http:// protocol we force that one, otherwise we use default mode.
+        siteUrl = siteUrl ? siteUrl : CoreConfigConstants.siteurl;
+
         const protocol = siteUrl.indexOf('http://') === 0 ? 'http://' : undefined;
 
         return this.sitesProvider.checkSite(siteUrl, protocol).then((result) => {

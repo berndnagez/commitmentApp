@@ -16,7 +16,9 @@ import { NgModule } from '@angular/core';
 import { CoreCronDelegate } from '@providers/cron';
 import { CoreLoginHelperProvider } from './providers/helper';
 import { CoreLoginCronHandler } from './providers/cron-handler';
-import { CoreLoginSitesPageModule } from './pages/sites/sites.module';
+// Bjoern: import { CoreLoginSitesPageModule } from './pages/sites/sites.module';
+import { CoreLoginCredentialsPageModule } from './pages/credentials/credentials.module';
+// Bjoern: import { CoreLoginSitePageModule } from './pages/site/site.module';
 
 // List of providers.
 export const CORE_LOGIN_PROVIDERS = [
@@ -28,7 +30,9 @@ export const CORE_LOGIN_PROVIDERS = [
     declarations: [
     ],
     imports: [
-        CoreLoginSitesPageModule
+        // Bjoern: CoreLoginSitesPageModule
+        CoreLoginCredentialsPageModule
+        // Bjoern: CoreLoginSitePageModule
     ],
     providers: CORE_LOGIN_PROVIDERS
 })
