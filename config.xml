@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="info.jungenarbeit.commitmentapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>comMIT!ment</name>
+    <name>commitmentapp</name>
     <description>comMIT!ment app</description>
     <author email="nagel@jungenarbeit.info" href="https://jungenarbeit.info/commit">comMIT!ment</author>
     <content src="index.html" />
