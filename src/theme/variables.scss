@@ -26,7 +26,7 @@ $white:           #ffffff; // Background, reversed text.
 $blue:            #0064d2; // Link, background.
 $turquoise:       #007982; // Accent.
 $green:           #5e8100; // Accent.
-$red:             #cb3d4d;
+$red:             #e30512;
 $orange:          #f98012; // Accent (never text).
 $yellow:          #fbad1a; // Accent (never text).
 $purple:          #8e24aa; // Accent (never text).
@@ -47,16 +47,16 @@ $green-dark:      darken($green, 10%) !default;
 $red-light:       mix($red, white, 20%) !default;
 $red-dark:        darken($red, 10%) !default;
 
-$orange-light:    lighten($orange, 10%) !default;
+$red-light:lighten($red, 10%) !default;
 
 $yellow-light:    mix($yellow, white, 20%) !default;
 $yellow-dark:     mix($yellow, black, 40%) !default;
 
-$core-color:          $orange !default;
+$core-color:          $red !default;
 $core-color-light:    lighten($core-color, 10%) !default;
 $core-color-dark:     darken($core-color, 10%) !default;
 
-$core-course-image-background: #81ecec, #74b9ff, #a29bfe, #dfe6e9, #00b894, #0984e3, #b2bec3, #fdcb6e, #fd79a8, #6c5ce7 !default;
+$core-course-image-background: #81ecec, #74b9ff, #a29bfe, #dfe6e9, #00b894, #0984e3, #b2bec3, #ff4040, #fd79a8, #6c5ce7 !default;
 
 // Shared Variables
 // --------------------------------------------------
