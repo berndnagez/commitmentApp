@@ -100,7 +100,7 @@ export class CoreLoginSitePolicyPage {
         this.sitesProvider.logout().catch(() => {
             // Ignore errors, shouldn't happen.
         }).then(() => {
-            this.navCtrl.setRoot('CoreLoginSitesPage');
+            this.navCtrl.setRoot('CoreLoginCredentialsPage');
         });
     }
 

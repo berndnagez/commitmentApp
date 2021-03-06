@@ -111,7 +111,7 @@ export class CoreContentLinksChooseSitePage implements OnInit {
      */
     protected leaveView(): void {
         this.sitesProvider.logout().finally(() => {
-            this.navCtrl.setRoot('CoreLoginSitesPage');
+            this.navCtrl.setRoot('CoreLoginCredentialsPage');
         });
     }
 }

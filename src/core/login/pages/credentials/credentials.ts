@@ -150,6 +150,7 @@ export class CoreLoginCredentialsPage implements OnDestroy {
         this.pageLoaded = false;
 
         // If the site is configured with http:// protocol we force that one, otherwise we use default mode.
+        siteUrl = siteUrl ? siteUrl : CoreConfigConstants.siteurl;
         const protocol = siteUrl.indexOf('http://') === 0 ? 'http://' : undefined;
 
         return this.sitesProvider.checkSite(siteUrl, protocol).then((result) => {
@@ -273,7 +274,7 @@ export class CoreLoginCredentialsPage implements OnDestroy {
         }).catch((error) => {
             this.loginHelper.treatUserTokenError(siteUrl, error, username, password);
             if (error.loggedout) {
-                this.navCtrl.setRoot('CoreLoginSitesPage');
+                this.navCtrl.setRoot('CoreLoginCredentialsPage');
             } else if (error.errorcode == 'forcepasswordchangenotice') {
                 // Reset password field.
                 this.credForm.controls.password.reset();

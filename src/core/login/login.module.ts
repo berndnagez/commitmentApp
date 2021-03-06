@@ -16,7 +16,7 @@ import { NgModule } from '@angular/core';
 import { CoreCronDelegate } from '@providers/cron';
 import { CoreLoginHelperProvider } from './providers/helper';
 import { CoreLoginCronHandler } from './providers/cron-handler';
-import { CoreLoginSitesPageModule } from './pages/sites/sites.module';
+import { CoreLoginCredentialsPageModule } from './pages/credentials/credentials.module';
 
 // List of providers.
 export const CORE_LOGIN_PROVIDERS = [
@@ -28,7 +28,7 @@ export const CORE_LOGIN_PROVIDERS = [
     declarations: [
     ],
     imports: [
-        CoreLoginSitesPageModule
+        CoreLoginCredentialsPageModule
     ],
     providers: CORE_LOGIN_PROVIDERS
 })

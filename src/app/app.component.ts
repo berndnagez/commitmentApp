@@ -26,7 +26,7 @@ import { CoreCustomURLSchemesProvider, CoreCustomURLSchemesHandleError } from '@
 import { CoreLoginHelperProvider } from '@core/login/providers/helper';
 import { Keyboard } from '@ionic-native/keyboard';
 import { ScreenOrientation } from '@ionic-native/screen-orientation';
-import { CoreLoginSitesPage } from '@core/login/pages/sites/sites';
+import { CoreLoginCredentialsPage } from '@core/login/pages/credentials/credentials';
 import { CoreWindow } from '@singletons/window';
 import { Device } from '@ionic-native/device';
 
@@ -134,7 +134,7 @@ export class MoodleMobileApp implements OnInit {
             // Go to sites page when user is logged out.
             // Due to DeepLinker, we need to use the ViewCtrl instead of name.
             // Otherwise some pages are re-created when they shouldn't.
-            this.appProvider.getRootNavController().setRoot(CoreLoginSitesPage);
+            this.appProvider.getRootNavController().setRoot(CoreLoginCredentialsPage);
 
             // Unload lang custom strings.
             this.langProvider.clearCustomStrings();
