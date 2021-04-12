@@ -1,7 +1,7 @@
 commitment-App
 =================
 
-Dies ist das Quellcode-Repository der commitment-App von Jungenarbeit e.V. Hamburg. Es wurde aus dem Repository der [Moodle Mobile App] geforkt und für die Bedürfnisse von Jungenarbeit angepasst.
+Dies ist das Quellcode-Repository der commitment-App von Jungenarbeit e.V. Hamburg. Es wurde aus dem Repository der [Moodle Mobile App](https://github.com/moodlehq/moodleapp) geforkt und für die Bedürfnisse von Jungenarbeit angepasst.
 
 * [Benutzer_Innen-Dokumentation](https://docs.moodle.org/de/Moodle_App)
 
