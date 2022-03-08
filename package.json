@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "comMIT!ment-App",
   "version": "3.9.4",
-  "description": "The official app for Moodle.",
+  "description": "The official app for comMIT!ment.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Jungenarbeit Hamburg e.V.",
+    "email": "nagel@jungenarbeit.info"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    "url": "https://github.com/berndnagez/commitmentApp"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -146,7 +146,7 @@
     "@types/node": "^8.10.59",
     "@types/promise.prototype.finally": "^2.0.4",
     "acorn": "^5.7.4",
-    "cordova-android": "^9.0.0",
+    "cordova-android": "^9.1.0",
     "cordova-ios": "^6.2.0",
     "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova.plugins.diagnostic": "^5.0.2",
@@ -177,8 +177,8 @@
   },
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "com-darryncampbell-cordova-plugin-intent": {},
